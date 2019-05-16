@@ -1,25 +1,25 @@
 $(document).ready(function () {
   $('#btn-create-user').click(function () {
     event.preventDefault();
-    const email = $('#input-email').val();
-    const password = $('#input-password').val();
-    const userName = $('#input-name').val();
+    const signupEmail = $('#signup-email').val();
+    const signupPassword = $('#signup-password').val();
+    // const userName = $('#input-name').val();
 
     firebase
       .auth()
-      .createUserWithEmailAndPassword(email, password)
+      .createUserWithEmailAndPassword(signupEmail, signupPassword)
       .then(() => {
         const user = firebase.auth().currentUser;
         user.updateProfile({
-          displayName: userName,
+          // displayName: userName,
           photoURL: '',
         })
-          .then(() => window.location.href = "categories_create_user.html");
+          .then(() => window.location.href = "panels.html");
       })
       .catch(error => $('#error-msg').text(error.message));
   });
 
-  $('#btnLogin').click(function () {
+  $('#btn-login').click(function () {
     event.preventDefault();
     const email = $('#input-email').val();
     const password = $('#input-password').val();
@@ -27,18 +27,8 @@ $(document).ready(function () {
     firebase
       .auth()
       .signInWithEmailAndPassword(email, password)
-      .then(() => window.location.href = "feed.html")
+      .then(() => window.location.href = "panels.html")
       .catch(error => $('#error-msg').text(error.message));
-  });
-
-  $('#facebook-btn').click(function () {
-    const provider = new firebase.auth.FacebookAuthProvider();
-    firebase
-      .auth()
-      .signInWithPopup(provider)
-      .then(() => window.location.href = "feed.html")
-      .catch(error => $('#error-msg').text(error.message));
-
   });
 
   $('#google-btn').click(function () {
@@ -46,7 +36,7 @@ $(document).ready(function () {
     firebase
       .auth()
       .signInWithPopup(provider)
-      .then(() => window.location.href = "feed.html")
+      .then(() => window.location.href = "panels.html")
       .catch(error => $('#error-msg').text(error.message));
   });
 

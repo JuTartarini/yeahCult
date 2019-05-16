@@ -13,63 +13,64 @@
   <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
-  <script src="src/js/config_firebase.js"></script>
+  <script src="../js/firebase-config.js"></script>
 </head>
 
 <body>
   <section>
     <div class="login-wrap">
       <div class="login-html">
+        <p id="error-msg" class="error-msg"></p>
         <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
         <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
         <div class="login-form">
           <div class="sign-in-htm">
             <div class="group">
-              <label for="user" class="label">Username</label>
-              <input id="user" type="text" class="input">
+              <label for="user" class="label">Email</label>
+              <input id="input-email" type="text" class="input">
             </div>
             <div class="group">
               <label for="pass" class="label">Password</label>
-              <input id="pass" type="password" class="input" data-type="password">
+              <input id="input-password" type="password" class="input" data-type="password">
             </div>
             <div class="group">
-              <input id="check" type="checkbox" class="check" checked>
-              <label for="check"><span class="icon"></span> Keep me Signed in</label>
+              <input id="btn-login" type="submit" class="button" value="Sign In">
             </div>
             <div class="group">
-              <input type="submit" class="button" value="Sign In">
+              <button id="google-btn" class="button"><i class="fab fa-google mr-2"></i> Sign In com o Google</button>
             </div>
             <div class="hr"></div>
             <div class="foot-lnk">
-              <a href="#forgot">Forgot Password?</a>
+              <a href="#forgot">Esqueceu a senha?</a>
             </div>
           </div>
           <div class="sign-up-htm">
-            <div class="group">
+            <!-- <div class="group">
               <label for="user" class="label">Username</label>
-              <input id="user" type="text" class="input">
+              <input id="input-name" type="text" class="input">
+            </div> -->
+            <div class="group">
+              <label for="pass" class="label">Email Address</label>
+              <input id="signup-email" type="text" class="input">
             </div>
             <div class="group">
               <label for="pass" class="label">Password</label>
-              <input id="pass" type="password" class="input" data-type="password">
+              <input id="signup-password" type="password" class="input" data-type="password">
             </div>
             <div class="group">
-              <label for="pass" class="label">Repeat Password</label>
-              <input id="pass" type="password" class="input" data-type="password">
+              <input id="btn-create-user" type="submit" class="button" value="Sign Up"></input>
             </div>
             <div class="group">
-              <label for="pass" class="label">Email Address</label>
-              <input id="pass" type="text" class="input">
-            </div>
-            <div class="group">
-              <input type="submit" class="button" value="Sign Up">
+              <button id="google-btn" class="button"><i class="fab fa-google mr-2"></i> Sign Up com o Google</button>
             </div>
             <div class="hr"></div>
             <div class="foot-lnk">
-              <label for="tab-1">Already Member?</a>
+              <label for="tab-1">Já tem cadastro?</a>
             </div>
           </div>
         </div>
@@ -85,8 +86,6 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <script src="../js/auth.js"></script>
-  <script src="../js/feed.js"></script>
-  <script src="../js/dom_events.js"></script>
 </body>
 
 </html>
