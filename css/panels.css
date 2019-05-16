@@ -39,23 +39,23 @@ body {
 }
 
 .panel1 {
-  background-image: url(../html/imgs/dan-farrell-1308316-unsplash.jpg);
+  background-image: url(../imgs/dan-farrell-1308316-unsplash.jpg);
 }
 
 .panel2 {
-  background-image: url(../html/imgs/vinilowraw-1219589-unsplash.jpg);
+  background-image: url(../imgs/vinilowraw-1219589-unsplash.jpg);
 }
 
 .panel3 {
-  background-image: url(../html/imgs/hin-bong-yeung-210244-unsplash.jpg);
+  background-image: url(../imgs/hin-bong-yeung-210244-unsplash.jpg);
 }
 
 .panel4 {
-  background-image: url(../html/imgs/d-a-v-i-d-s-o-n-l-u-n-a-220360-unsplash.jpg);
+  background-image: url(../imgs/d-a-v-i-d-s-o-n-l-u-n-a-220360-unsplash.jpg);
 }
 
 .panel5 {
-  background-image: url(../html/imgs/yuri-catalano-199963-unsplash.jpg);
+  background-image: url(../imgs/yuri-catalano-199963-unsplash.jpg);
 }
 
 .panel>* {
