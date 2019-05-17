@@ -15,14 +15,12 @@ body {
 }
 
 .panels {
+  min-height: 100vh;
   overflow: hidden;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .panel {
-  min-width: 100vw;
-  min-height: 20vh;
   background: #6B0F9C;
   box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
   color: white;
@@ -122,13 +120,7 @@ body {
   }
 
   .panels {
-    min-height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
-  .panel {
-    min-width: fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
