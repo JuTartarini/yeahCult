@@ -2,86 +2,45 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>YeahCult - Login</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- <link rel="icon" href="src/img/logo/logo_final_img.png"> -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
-  <script src="js/firebase-config.js"></script>
+  <meta charset="UTF-8">
+  <title>YeahCult</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/panels.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>
-  <section>
-    <div class="login-wrap">
-      <div class="login-html">
-        <p id="error-msg" class="error-msg"></p>
-        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Entrar</label>
-        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Cadastrar</label>
-        <div class="login-form">
-          <div class="sign-in-htm">
-            <div class="group">
-              <label for="user" class="label">Email</label>
-              <input id="input-email" type="text" class="input">
-            </div>
-            <div class="group">
-              <label for="pass" class="label">Senha</label>
-              <input id="input-password" type="password" class="input" data-type="password">
-            </div>
-            <div class="group">
-              <input id="btn-login" type="submit" class="button" value="Entrar">
-            </div>
-            <div class="group">
-              <button id="google-btn" class="button"><i class="fab fa-google mr-2"></i> Entrar com o Google</button>
-            </div>
-          </div>
-          <div class="sign-up-htm">
-            <!-- <div class="group">
-              <label for="user" class="label">Username</label>
-              <input id="input-name" type="text" class="input">
-            </div> -->
-            <div class="group">
-              <label for="pass" class="label">Endereço de Email</label>
-              <input id="signup-email" type="text" class="input">
-            </div>
-            <div class="group">
-              <label for="pass" class="label">Senha</label>
-              <input id="signup-password" type="password" class="input" data-type="password">
-            </div>
-            <div class="group">
-              <input id="btn-create-user" type="submit" class="button" value="Cadastrar"></input>
-            </div>
-            <div class="group">
-              <button id="google-btn" class="button"><i class="fab fa-google mr-2"></i> Cadastrar com o Google</button>
-            </div>
-            <div class="hr"></div>
-            <div class="foot-lnk">
-              <label for="tab-1">Já tem cadastro?</a>
-            </div>
-          </div>
-        </div>
-      </div>
+
+  <div class="panels">
+    <div class="panel panel1">
+      <p></p>
+      <p class="bgcolor">Descubra</p>
+      <p></p>
     </div>
-  </section>
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="js/auth.js"></script>
+    <div class="panel panel2">
+      <p></p>
+      <p class="bgcolor">o mundo</p>
+      <p></p>
+    </div>
+    <div class="panel panel3">
+      <p></p>
+      <p class="bgcolor">ao seu</p>
+      <p></p>
+    </div>
+    <div class="panel panel4">
+      <p></p>
+      <p class="bgcolor">redor!</p>
+      <p></p>
+    </div>
+    <div class="panel panel5">
+      <p></p>
+      <a class="enter bgcolor" href="html/auth.html">YeahCult! <i class="fas fa-sign-in-alt"></i></a>
+      <p></p>
+    </div>
+  </div>
+
+  <script src="js/panels.js"></script>
+
 </body>
 
 </html>

@@ -84,6 +84,20 @@ body {
   transform: translateY(0);
 }
 
+.enter {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  font-weight: 600;
+  color: rgb(95, 248, 24);
+  background-color: rgba(29, 2, 44, 0.411);
+}
+
+.enter:hover {
+  color: rgb(197, 157, 221);
+}
+
 .panel p {
   text-transform: uppercase;
   font-family: 'Amatic SC', cursive;
@@ -101,9 +115,12 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .panel p {
-    font-size: 1em;
+  p {
+    font-size: 0.5em;
+  }
+
+  .panels {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
-
-
