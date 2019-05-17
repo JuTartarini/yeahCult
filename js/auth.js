@@ -14,7 +14,7 @@ $(document).ready(function () {
           // displayName: userName,
           photoURL: '',
         })
-          .then(() => window.location.href = "../html/panels.html");
+          .then(() => window.location.href = "../html/tts.html");
       })
       .catch(error => $('#error-msg').text(error.message));
   });
@@ -27,7 +27,7 @@ $(document).ready(function () {
     firebase
       .auth()
       .signInWithEmailAndPassword(email, password)
-      .then(() => window.location.href = "../html/panels.html")
+      .then(() => window.location.href = "../html/tts.html")
       .catch(error => $('#error-msg').text(error.message));
   });
 
@@ -36,7 +36,7 @@ $(document).ready(function () {
     firebase
       .auth()
       .signInWithPopup(provider)
-      .then(() => window.location.href = "../html/panels.html")
+      .then(() => window.location.href = "../html/tts.html")
       .catch(error => $('#error-msg').text(error.message));
   });
 

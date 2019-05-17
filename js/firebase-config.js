@@ -1,9 +1,9 @@
 const config = {
-  apiKey: "AIzaSyAhaYTyElF5vwcu6DdYQD2FwSHgNgh4zMw",
-  authDomain: ".firebaseapp.com",
-  databaseURL: "https://yeah-cult.firebaseio.com",
-  projectId: "what-is-my-history",
-  storageBucket: "what-is-my-history.appspot.com",
+  apiKey: "AIzaSyCaG4q8Mwu-MPPZuEZ-QevE3-KVrncU8JA",
+  authDomain: "yeahcult-f7b18.firebaseapp.com",
+  databaseURL: "",
+  projectId: "yeahcult-f7b18",
+  storageBucket: "",
   messagingSenderId: "842121066620"
 };
 
