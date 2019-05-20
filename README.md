@@ -35,7 +35,7 @@ Protótipo de média fidelidade:
 ## Concorrentes
 Apps concorrentes do YeahCult
 
-![Imagem](imgs/Googles-maps.jpg)
+![Imagem](imgs/Google-maps.jpg)
 * Google Maps
 -Descubra lugares e se aventure pela área como um morador local
 -Saiba mais sobre restaurantes, eventos e atividades locais do seu interesse
@@ -44,7 +44,7 @@ Apps concorrentes do YeahCult
 
 **Diferencial:** Inclui trazer a historia do local em Audio .
 
-![Imagem](imgs/Google-Lens.png)
+![Imagem](imgs/google-Lens.png)
 * Google Lens
 -Identifique plantas e animais
 -Descubra o nome daquela planta na casa do seu amigo ou a raça do cachorro que você viu no parque.
@@ -59,7 +59,7 @@ Apps concorrentes do YeahCult
 **Diferencial:** Inclui traduzir informações dos locais pra outra lingua .
 
 ![Imagem](imgs/foursquare.png)
-* **foursquare**
+* Foursquare
 -O Foursquare ajuda você a pesquisar e descobrir ótimos lugares, em qualquer parte do mundo.
 -Busque por restaurantes, cafés, vida noturna, lojas e muito mais. Veja o que está por perto ou planeje algo com antecedência.
 
