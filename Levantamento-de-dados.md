@@ -42,7 +42,7 @@ Apps concorrentes do YeahCult
 
 **Diferencial:** Inclui transformar texto em audio .
 
-##Dados do formulario
+## Dados do formulario
 -Olá venho te convidar para dar sua opinião sobre nosso aplicativo, o YeahCult é uma plataforma para ter acesso a informação em texto e áudio sobre locais peculiares, já pensou você passar por algum local onde um app possa te alertar   sobre a historia, curiosidades e você como usuário poder compartilhar o que sabe também. Colabore conosco preenchendo esse formulário e dando sua opinião sincera !
 ![Imagem](imgs/pergunta1.png)
 ![Imagem](imgs/pergunta2.png)
