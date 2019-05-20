@@ -2,16 +2,12 @@ body{
   font-size: 20px;
 }
 
-header{
-width:100vh;
-}
-
 .btn-top{
-  margin-left: 54vw;
+  margin-left: 25vw;
 }
 
-main, .map-here{
-  width:100vh; 
+header, main, .map-here{
+  width:100%; 
 }
 
 .img-timeline {
@@ -22,7 +18,7 @@ main, .map-here{
 .text-timeline{
   font-family: 'Nanum Gothic Coding', monospace;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .nav-timeline {
@@ -44,16 +40,13 @@ main, .map-here{
 
 .img-icon{
   position:absolute;
-  height: 20%;
-  top: 53vh;
-  left: 68vw;
+  height: 15%;
+  bottom: 5vh;
+  left: 70vw;
 }
 
 .map{
   position:relative;
-  background-color: grey;
-  /* width: 360px;
-  height: 440px; */
 }
 
 .navbar-inverse .navbar-nav>li>a:hover{
