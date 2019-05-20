@@ -5,13 +5,13 @@ Descubra o mundo ao seu redor!
 ## Introdução
 História, cultura e arte estão em todos os lugares!
 
-Você gostaria de tornar sua rotina mais divertida? Descobrir coisas interessantes sobre o bairro onde você mora, a história de prédios por onde você passa a caminho do trabalho? Quem sabe descobrir cultura até mesmo enquanto espera na sala do dentista? 
+Você gostaria de tornar sua rotina mais divertida? Descobrir coisas interessantes sobre o bairro onde você mora, a história de prédios por onde você passa a caminho do trabalho? Quem sabe descobrir cultura até mesmo enquanto espera na sala do dentista?
 
 Te convidamos a sair do turismo convencional e embarcar conosco nesta jornada de conhecer o 'mundo' ao nosso redor!
 
 ## Canvas
-
-
+![Canvas](imgs/canvas_wfIUYRhiePBAE.png)
+[Acessar Canvas](https://canvanizer.com/canvas/wfIUYRhiePBAE)
 
 ## Personas
 ![Persona 1](imgs/persona-alice.jpeg)
