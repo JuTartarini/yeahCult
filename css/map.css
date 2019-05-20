@@ -1,0 +1,61 @@
+body{
+  font-size: 20px;
+}
+
+header{
+width:100vh;
+}
+
+.btn-top{
+  margin-left: 54vw;
+}
+
+main, .map-here{
+  width:100vh; 
+}
+
+.img-timeline {
+  width: 15%;
+  margin: 3%;
+}
+
+.text-timeline{
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: white;
+  font-size: 50px;
+}
+
+.nav-timeline {
+  background: linear-gradient(to right, #8333A3, #000000);
+}
+
+.nav-options{
+  color:white;
+  background: transparent;
+  border: none;
+}
+
+.nav-button{
+  background: transparent;
+  border: none;
+  margin-top: 14vw;
+  margin-right: 5vh;
+}
+
+.img-icon{
+  position:absolute;
+  height: 20%;
+  top: 53vh;
+  left: 68vw;
+}
+
+.map{
+  position:relative;
+  background-color: grey;
+  /* width: 360px;
+  height: 440px; */
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #8333A3;
+}
