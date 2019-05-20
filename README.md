@@ -25,9 +25,7 @@ Te convidamos a sair do turismo convencional e embarcar conosco nesta jornada de
 Protótipo de média fidelidade:
 [Link protótipo Marvel](https://marvelapp.com/515i7e9/screen/56950990)
 
-
 ![Imagem](imgs/imagem-principal.jpeg)
-
 
 ## API's utilizadas
 * [Google maps](https://developers.google.com/maps/documentation/?hl=pt-br)
@@ -36,13 +34,13 @@ Protótipo de média fidelidade:
 * Tradutor
 
 ## Road map
->Versão 1.0.0
+### Versão 1.0.0
 * Histórias via Wikipédia
 * Áudio com voz sintética
 * Tradução para o inglês
 * Pontos de interesse
 
->Versão 2.0.0
+### Versão 2.0.0
 * Acessibilidade para deficientes visuais
 * Usuários podem contribuir com fotos, áudios e comentários
 * Áudio com voz humana
@@ -51,6 +49,6 @@ Protótipo de média fidelidade:
 * Tradução para outros idiomas
 * Salvar Favoritos
 
->Versão 3.0.0
+### Versão 3.0.0
 * Pesquisa de pontos através de texto, áudio ou imagem
 * Rotas (rotas programadas de pontos estabelecidos, ex rota do negro, casas de grandes escritores, Grafiti, etc)
