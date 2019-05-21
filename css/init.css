@@ -34,6 +34,7 @@ html {
 
 .btn {
    width: 42%;
+   height: 20%;
    font-size: 20px;
    background-color: black;
    border-color: black;
@@ -42,4 +43,15 @@ html {
 
 a{
   text-decoration: none;
+}
+
+@media screen and (min-width: 1024px){
+  .logo{
+    height: 20%;
+  width: 20%;
+  }
+
+  .btn {
+    width: 10%;
+  }
 }
