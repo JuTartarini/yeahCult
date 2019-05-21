@@ -172,26 +172,26 @@ left:3vw;
   body{
     font-size: 20px;
   }
-  
+
   .btn-top{
     margin-left: 25vw;
   }
-  
+
   header, main, .map, .list-map{
     width:100%;
   }
-  
+
   .img-timeline {
     width: 15%;
     margin: 3%;
   }
-  
+
   a.navbar-brand{
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 30px;
     font-weight: 500;
   }
-  
+
   .navbar {
     /* height: 12vh; */
     background: linear-gradient(to right, #8333A3, #000000);
@@ -206,7 +206,7 @@ left:3vw;
     background: transparent;
     border: none;
   }
-  
+
   .nav-button{
     background: transparent;
     border: none;
@@ -217,14 +217,14 @@ left:3vw;
   .navbar-nav a{
     color: #ffffff;
   }
-  
+
   .card {
     padding:0;
     width: 100%;
     transition: transform 1s;
     transform-style: preserve-3d;
   }
-  
+
   .back, .btn-flip {
     display:block;
     position:absolute;
@@ -306,4 +306,19 @@ left:3vw;
   position:relative;
 }
 
+.fa-arrow-left {
+  padding: 8%;
+}
 
+.player {
+  padding-left: 8%;
+}
+
+.summary {
+  padding: 2% 8%;
+  text-align: justify;
+}
+
+.read-more {
+  float: right;
+}

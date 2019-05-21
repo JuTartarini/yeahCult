@@ -11,21 +11,21 @@ Te convidamos a sair do turismo convencional e embarcar conosco nesta jornada de
 
 ## Canvas
 [Link Canvas](https://canvanizer.com/canvas/wfIUYRhiePBAE)
-![Canvas](imgs/canvas_wfIUYRhiePBAE.png)
+![Canvas](public/imgs/canvas_wfIUYRhiePBAE.png)
 
 ## Personas
-![Persona 1](imgs/persona-alice.jpeg)
-![Persona 2](imgs/persona-dennis.jpeg)
-![Persona 3](imgs/persona-marcia.jpeg)
+![Persona 1](public/imgs/persona-alice.jpeg)
+![Persona 2](public/imgs/persona-dennis.jpeg)
+![Persona 3](public/imgs/persona-marcia.jpeg)
 
 ## Diagrama de blocos
-![Diagrama](imgs/DiagramadeblocosAPI.png)
+![Diagrama](public/imgs/DiagramadeblocosAPI.png)
 
 ## Protótipo
 Protótipo de média fidelidade:
 [Link protótipo Marvel](https://marvelapp.com/515i7e9/screen/56950990)
 
-![Imagem](imgs/imagem-principal.jpeg)
+![Imagem](public/imgs/imagem-principal.jpeg)
 
 ## API's utilizadas
 * [Google maps](https://developers.google.com/maps/documentation/?hl=pt-br)
