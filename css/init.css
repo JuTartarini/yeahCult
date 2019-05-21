@@ -18,7 +18,7 @@ html {
   width: 50%;
 }
 
-.slogan, .title, .btn, a{
+.slogan, .title, .btn, a {
   margin: 3px;
   color: white;
   font-family: 'Nanum Gothic Coding', monospace;
@@ -41,7 +41,7 @@ html {
    outline: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
