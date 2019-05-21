@@ -23,6 +23,7 @@ header, main, .map, .list-map{
 
 .nav-timeline {
   background: linear-gradient(to right, #8333A3, #000000);
+  height: 12vh;
 }
 
 .nav-options{
@@ -70,26 +71,21 @@ header, main, .map, .list-map{
   height: auto;
 }
 
-.btn-flip{
-  bottom: 5vh;
-  left: 3vw;
-}
-
-.btn-flip-one{
+.btn-flip-one, .btn-flip{
   position: absolute;
   top: 125vw;
   left:3vw;
 }
 
 .map {
-  height: 100%;
+  height: 88vh;
   position:absolute;
   margin: 0;
   padding: 0;
 }
 
 .list-map{
-  height: 100%;
+  height: 88vh;
   position:relative;
 }
 
