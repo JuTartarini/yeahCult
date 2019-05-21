@@ -67,6 +67,7 @@
 
 .nav-timeline {
   background: linear-gradient(to right, #8333A3, #000000);
+  height: 12vh;
 }
 
 .nav-options{
@@ -114,58 +115,22 @@
   height: auto;
 }
 
-.btn-flip{
-  bottom: 5vh;
-  left: 3vw;
-}
-
-.btn-flip-one{
+.btn-flip-one, .btn-flip{
   position: absolute;
   top: 125vw;
   left:3vw;
 }
 
-  .card div {
-    display: block;
-    width: auto;
-    top: 0;
-    position: absolute;
-    backface-visibility: hidden;
-  }
-  
-  .card .back {
-    transform: rotateY( 180deg );
-  }
-  .card.flipped {
-    transform: rotateY( 180deg );
-  }
-  
-  .btn-flip, .btn-flip-one{
-    background:transparent;
-    width:17vw;
-    height: auto;
-    position: absolute;
-    top: 130vw;
-    left: 3vw;
-  }
-  
-  .btn-flip{
-    bottom: 5vh;
-    left: 3vw;
-  }
-  
-  .map {
-    height: 88vh;
-    position:absolute;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .list-map{
-    height: 88vh;
-    position:relative;
-  }
+.map {
+  height: 88vh;
+  position:absolute;
+  margin: 0;
+  padding: 0;
 }
 
+.list-map{
+  height: 88vh;
+  position:relative;
+}
 
 

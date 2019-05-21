@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width:100%;
+  background-image: linear-gradient( #8333A3, #000000);
+}
+
+.row {
+  position: relative;
+  top: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin: 2px;
+  height: 50%;
+  width: 50%;
+}
+
+.slogan, .title, .btn, a{
+  margin: 3px;
+  color: white;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.slogan {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.btn {
+   width: 42%;
+   font-size: 20px;
+   background-color: black;
+   border-color: black;
+   outline: none;
+}
+
+a{
+  text-decoration: none;
+}

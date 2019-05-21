@@ -35,7 +35,7 @@ Protótipo de média fidelidade:
 
 ## Road map
 ### Versão 1.0.0
-* Histórias via Wikipédia
+* Resumo via Wikipédia
 * Áudio com voz sintética
 * Tradução para o inglês
 * Pontos de interesse
