@@ -5,11 +5,11 @@ function fetchTTS(text) {
   fetch(`${voiceUrl}?key=${apiKey}&hl=pt-BR&src=${text}&f=48khz_16bit_stereo`)
     .then(resp => {
       player.preload = 'auto';
-      const source = document.createElement('source');
-      source.type = 'audio/wav';
-      source.src = resp.url;
+      const sourceTag = document.createElement('source');
+      sourceTag.type = 'audio/wav';
+      sourceTag.src = resp.url;
 
-      player.appendChild(source);
+      player.appendChild(sourceTag);
     })
     .catch(error => {
       errorMsg.textContent = error + 'Erro. Não foi possível carregar o áudio!';
