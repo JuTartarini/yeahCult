@@ -48,7 +48,7 @@ color: #ffffff;
 }
 
 .card {
-  padding:0;
+  padding: 0;
   width: 100%;
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -58,6 +58,7 @@ color: #ffffff;
   display:block;
   position:absolute;
 }
+
 .text-timeline{
 font-family: 'Nanum Gothic Coding', monospace;
 color: white;
@@ -92,6 +93,7 @@ transform-style: preserve-3d;
 display:block;
 position:absolute;
 }
+
 .card div {
 display: block;
 width: auto;
@@ -109,18 +111,19 @@ transform: rotateY( 180deg );
 
 .btn-flip, .btn-flip-one{
 background:transparent;
-width:27vw;
+width:20vw;
 height: auto;
 }
 
 .btn-flip{
+position: absolute;
 bottom: 5vh;
 left: 3vw;
 }
 
 .btn-flip-one{
 position: absolute;
-top: 125vw;
+top: 70vw;
 left:3vw;
 }
 
@@ -226,6 +229,8 @@ left:3vw;
     display:block;
     position:absolute;
   }
+
+
 .text-timeline{
   font-family: 'Nanum Gothic Coding', monospace;
   color: white;
@@ -261,6 +266,7 @@ left:3vw;
   display:block;
   position:absolute;
 }
+
 .card div {
   display: block;
   width: auto;
@@ -278,7 +284,7 @@ left:3vw;
 
 .btn-flip, .btn-flip-one{
   background:transparent;
-  width:27vw;
+  width:15vw;
   height: auto;
 }
 
