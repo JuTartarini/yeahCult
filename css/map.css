@@ -1,95 +1,109 @@
-body{
-  font-size: 20px;
+@media screen and (max-width: 1024px){
+  body{
+    font-size: 20px;
+  }
+  
+  .btn-top{
+    margin-left: 25vw;
+  }
+  
+  header, main, .map, .list-map{
+    width:100%;
+  }
+  
+  .img-timeline {
+    width: 15%;
+    margin: 3%;
+  }
+  
+  a.navbar-brand{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .navbar {
+    /* height: 12vh; */
+    background: linear-gradient(to right, #8333A3, #000000);
+  }
+
+.navbar-toggler .fas{
+  color: #ffffff;
 }
 
-.btn-top{
-  margin-left: 25vw;
+  .nav-options{
+    color:white;
+    background: transparent;
+    border: none;
+  }
+  
+  .nav-button{
+    background: transparent;
+    border: none;
+    /* margin-top: 14vw;
+    margin-right: 5vh; */
+  }
+
+  .navbar-nav a{
+    color: #ffffff;
+  }
+  
+  .card {
+    padding:0;
+    width: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .back, .btn-flip {
+    display:block;
+    position:absolute;
+  }
+
+  .card div {
+    display: block;
+    width: auto;
+    top: 0;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .card .back {
+    transform: rotateY( 180deg );
+  }
+  .card.flipped {
+    transform: rotateY( 180deg );
+  }
+  
+  .btn-flip, .btn-flip-one{
+    background:transparent;
+    width:17vw;
+    height: auto;
+    position: absolute;
+    top: 130vw;
+    left: 3vw;
+  }
+  
+  .btn-flip{
+    bottom: 5vh;
+    left: 3vw;
+  }
+  
+  .btn-flip-one{
+    /* margin-left: 3vh;
+    margin-top: 125vw; */
+  }
+  
+  .map {
+    height: 88vh;
+    position:absolute;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list-map{
+    height: 88vh;
+    position:relative;
+  }
 }
 
-header, main, .map, .list-map{
-  width:100%; 
-}
-
-.img-timeline {
-  width: 15%;
-  margin: 3%;
-}
-
-.text-timeline{
-  font-family: 'Nanum Gothic Coding', monospace;
-  color: white;
-  font-size: 30px;
-}
-
-.nav-timeline {
-  background: linear-gradient(to right, #8333A3, #000000);
-}
-
-.nav-options{
-  color:white;
-  background: transparent;
-  border: none;
-}
-
-.nav-button{
-  background: transparent;
-  border: none;
-  margin-top: 14vw;
-  margin-right: 5vh;
-}
-
-.card {
-  padding:0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.front, .back, .btn-flip {
-  display:block;
-  position:absolute;
-}
-.card div {
-  display: block;
-  width: auto;
-  height: auto;
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.card .back {
-  transform: rotateY( 180deg );
-}
-.card.flipped {
-  transform: rotateY( 180deg );
-}
-
-.btn-flip, .btn-flip-one{
-  background:transparent;
-  width:27vw;
-  height: auto;
-}
-
-.btn-flip{
-  bottom: 5vh;
-  left: 3vw;
-}
-
-.btn-flip-one{
-  margin-left: 3vh;
-  margin-top: 125vw;
-}
-
-.map {
-  height: 100%;
-  position:absolute;
-  margin: 0;
-  padding: 0;
-}
-
-.list-map{
-  height: 100%;
-  position:relative;
-}
