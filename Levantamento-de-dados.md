@@ -11,7 +11,7 @@ Apps concorrentes do YeahCult
 -Descubra lugares e se aventure pela área como um morador local<br>
 -Saiba mais sobre restaurantes, eventos e atividades locais do seu interesse
 
-**Diferencial competitivo:** Inclui trazer informações de locais fora do comum, que outros usuarios contribuirão.
+>**Diferencial competitivo:** Inclui trazer informações de locais fora do comum, que outros usuarios contribuirão.
 
 
 
