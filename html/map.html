@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
     <link href="../css/map.css" rel="stylesheet" />
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2qNB9aNPEc-r57LaLtsDhA9ytR-mCq3I&callback=initMap"
     async defer></script>
@@ -13,27 +13,27 @@
   </head>
   <body>
     <header>
-        <nav class="navbar-inverse nav-timeline" data-offset-top="197">
-        <div class="btn-group">
-            <div class="container-fluid"> 
-                <div class="navbar-header">
-                    <div class="d-flex flex-row align-items-center">
-                    <img class="img-timeline" src="../imgs/whte-logo-2.png">
-                    <span class="text-timeline">YeahCult</span>
-                    <button type="button" class="btn btn-secondary dropdown-toggle btn-top nav-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars fa-2x img-responsive"></i></button>      
-                    <ul class="dropdown-menu dropdown-menu-right">
-                <li><a href="#" id="profile"><i class="far fa-user-circle fa-3x"></i> Perfil</a></li>
-                <li><a href="#" id="save"><i class="far fa-bookmark fa-3x"></i> Salvos</a></li>
-                <li><a href="#" id="signout"><i class="fas fa-cog fa-3x"></i> Configurações</a></li>
-                <li><a href="#" id="signout"><i class="far fa-question-circle fa-3x"></i></i> Ajuda</a></li>
-                <li><a href="#" id="signout"><i class="fas fa-sign-out-alt fa-3x"></i> Sign Out</a></li>
-            </ul>
+      <nav class="navbar navbar-light navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand text-timeline text-white" href="#">
+            <img src="/imgs/whte-logo-2.png" width="30" height="30" alt="">
+            YeahCult
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a href="#" id="profile" class="text-muted"><i class="far fa-user-circle"></i> Perfil</a>
+              <a href="#" id="save" class="text-muted"><i class="far fa-bookmark"></i> Salvos</a>
+              <a href="#" id="signout" class="text-muted"><i class="fas fa-cog"></i> Configurações</a>
+              <a href="#" id="signout" class="text-muted"><i class="far fa-question-circle"></i></i> Ajuda</a>
+              <a href="#" id="signout"><i class="fas fa-sign-out-alt"></i> Sair<span class="sr-only">(current)</span></a>
+            </div>
           </div>
-        </div>
-                  </div>
-              </div>
-        </nav>
-    </header>
+      </div>
+      </nav>
+
     <main>
        <div id="map" class="map"></div>
           <div class="card">
@@ -45,11 +45,12 @@
               <img class="list-map" src="../imgs/login.jpg" />
               <img onclick="flip()" class="btn-flip" src="../imgs/icone-mapa-grafico.png" />
             </div>
-           </div>
+        </div>
     </main>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="../js/map.js"></script>
   </body>
 </html>

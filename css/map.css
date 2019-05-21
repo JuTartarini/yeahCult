@@ -1,20 +1,64 @@
-body{
-  font-size: 20px;
+@media screen and (max-width: 1024px){
+  body{
+    font-size: 20px;
+  }
+  
+  .btn-top{
+    margin-left: 25vw;
+  }
+  
+  header, main, .map, .list-map{
+    width:100%;
+  }
+  
+  .img-timeline {
+    width: 15%;
+    margin: 3%;
+  }
+  
+  a.navbar-brand{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .navbar {
+    /* height: 12vh; */
+    background: linear-gradient(to right, #8333A3, #000000);
+  }
+
+.navbar-toggler .fas{
+  color: #ffffff;
 }
 
-.btn-top{
-  margin-left: 25vw;
-}
+  .nav-options{
+    color:white;
+    background: transparent;
+    border: none;
+  }
+  
+  .nav-button{
+    background: transparent;
+    border: none;
+    /* margin-top: 14vw;
+    margin-right: 5vh; */
+  }
 
-header, main, .map, .list-map{
-  width:100%; 
-}
-
-.img-timeline {
-  width: 15%;
-  margin: 3%;
-}
-
+  .navbar-nav a{
+    color: #ffffff;
+  }
+  
+  .card {
+    padding:0;
+    width: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .back, .btn-flip {
+    display:block;
+    position:absolute;
+  }
 .text-timeline{
   font-family: 'Nanum Gothic Coding', monospace;
   color: white;
@@ -88,4 +132,5 @@ header, main, .map, .list-map{
   height: 88vh;
   position:relative;
 }
+
 
