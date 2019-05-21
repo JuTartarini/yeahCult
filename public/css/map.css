@@ -322,3 +322,8 @@ left:3vw;
 .read-more {
   float: right;
 }
+
+.photo {
+  width: auto;
+  height: 200px;
+}
