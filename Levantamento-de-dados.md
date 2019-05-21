@@ -20,7 +20,7 @@ Apps concorrentes do YeahCult
 -Identifique plantas e animais<br>
 -Descubra o nome daquela planta na casa do seu amigo ou a raça do cachorro que você viu no parque.
 
-**Diferencial competitivo:**  Inclui trazer informações de locais fora do comum, que outros usuarios contribuirão.
+>**Diferencial competitivo:**  Inclui trazer informações de locais fora do comum, que outros usuarios contribuirão.
 
 
 
@@ -29,7 +29,7 @@ Apps concorrentes do YeahCult
 -Descubra locais perto de onde você está<br>
 -Faça avaliações e inclua fotos
 
-**Diferencial competitivo:** Inclui traduzir informações dos locais pra outra lingua .
+>**Diferencial competitivo:** Inclui traduzir informações dos locais pra outra lingua .
 
 
 
@@ -38,7 +38,7 @@ Apps concorrentes do YeahCult
 -O Foursquare ajuda você a pesquisar e descobrir ótimos lugares, em qualquer parte do mundo.<br>
 -Busque por restaurantes, cafés, vida noturna, lojas e muito mais. Veja o que está por perto ou planeje algo com antecedência.
 
-**Diferencial competitivo:** Inclui transformar texto em audio .
+>**Diferencial competitivo:** Inclui transformar texto em audio .
 
 ## Dados do formulario
 -Olá venho te convidar para dar sua opinião sobre nosso aplicativo, o YeahCult é uma plataforma para ter acesso a informação em texto e áudio sobre locais peculiares, já pensou você passar por algum local onde um app possa te alertar   sobre a historia, curiosidades e você como usuário poder compartilhar o que sabe também. Colabore conosco preenchendo esse formulário e dando sua opinião sincera !
