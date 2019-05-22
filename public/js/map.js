@@ -13,8 +13,8 @@ function initMap() {
     zoom: 15
   });
   let locations = [
-    ['Condomínio_Edifício Anchieta', -23.5552326, -46.6630951],
-    ['Museu_de_Arte_de_São_Paulo_Assis_Chateaubriand', -23.561414, -46.6558819],
+    ['Edifício_Anchieta', -23.5552326, -46.6630951],
+    ['Museu_de_Arte_de_São_Paulo', -23.561414, -46.6558819],
     ['Parque_Trianon', -23.5623276, -46.6573249],
     ['Fundação_Cásper_Líbero', -23.565382, -46.6513127],
     ['Conjunto_Nacional', -23.558976, -46.6603736]
@@ -24,10 +24,11 @@ function initMap() {
       position: new google.maps.LatLng(locations[i][1], locations[i][2]),
       title: locations[i][0],
       map: map
-    })
+    });
+    console.log(homeMarker);
+
     homeMarker.addListener('click', function () {
       window.location = `wiki.html?placeName=${homeMarker.title}`;
     });
   }
-
 }
