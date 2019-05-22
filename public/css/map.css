@@ -173,6 +173,20 @@ left:3vw;
   position:relative;
 }
 
+.photo-list {
+  width: auto;
+  height: 150px;
+}
+
+.row {
+  margin-top: 3vw;
+  margin-left: 3vh;
+}
+
+.list-place {
+  color: black;
+}
+
 @media screen and (max-width: 1024px){
   body{
     font-size: 20px;
@@ -296,12 +310,13 @@ left:3vw;
   background:transparent;
   width:20vw;
   height: auto;
-}
-
-.btn-flip-one, .btn-flip{
   position: absolute;
   top: 125vw;
   left:3vw;
+}
+
+.btn-flip {
+  position: fixed;
 }
 
 .map {
@@ -345,7 +360,11 @@ left:3vw;
   height: 150px;
 }
 
-.carousel-item {
-  /* position: relative !important; */
-  /* display: none !important; */
+.row {
+  margin-top: 3vw;
+  margin-left: 3vh;
+}
+
+.list-place {
+  color: black;
 }

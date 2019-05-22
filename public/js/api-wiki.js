@@ -1,8 +1,10 @@
-const place = 'Parque_Trianon';
+
 const wikiUrl = 'https://pt.wikipedia.org/api/rest_v1/page/summary';
 const wikiUrlEn = 'https://en.wikipedia.org/api/rest_v1/page/summary';
 
-fetch(`${wikiUrl}/${place}`)
+
+
+  fetch(`${wikiUrl}/${teste('Museu_de_Arte_de_São_Paulo')}`)
   .then(resp => resp.json())
   .then(resp => {
     const wikiSummary = resp.extract;
@@ -33,7 +35,12 @@ fetch(`${wikiUrl}/${place}`)
     }
 
     fetchTTS(wikiSummary);
+    
   });
+  
+
+
+
 
 $('#btnEnglish').on('click', () => {
   $('#summary').text('');

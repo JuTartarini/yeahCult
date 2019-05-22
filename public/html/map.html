@@ -46,32 +46,26 @@
       </div>
       <div class="back">
         <section class="list-map">
+            <div class="row">
           <img class="photo-list" src="../imgs/masp.jpg" />
-          <img class="photo-list" src="../imgs/parque-trianon.jpg" />
-          <img class="photo-list" src="../imgs/conjunto-nacional.jpg" />
-          <img class="photo-list"  src="../imgs/fundaçao-casper-libero.jpg" />
-          <img class="photo-list" src="../imgs/edificio_anchieta.jpg" />
-          <!-- <div id="carouselExampleControls" class="carousel slide ca-photo" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100 photo-list" src="../imgs/masp.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 photo-list" src="../imgs/masp-assis-chateaubriand.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 photo-list" src="../imgs/masp-pietro-bardi.jpg" alt="Third slide">
-              </div>
+          <button id="masp" onclick=teste() class="list-place">Museu de Arte de São Paulo</button>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div> -->
+              <div class="row">
+          <img class="photo-list" src="../imgs/parque-trianon.jpg" />
+          <p id="trianon" class="list-place">Parque do Trianon</p>
+        </div>
+          <div class="row">
+          <img class="photo-list" src="../imgs/conjunto-nacional.jpg" />
+          <p id="cj" class="list-place">Conjunto Nacional</p>
+        </div>
+          <div class="row">
+          <img class="photo-list"  src="../imgs/fundaçao-casper-libero.jpg" />
+          <p id="casper" class="list-place">Fundação Casper Líbero</p>
+        </div>
+          <div class="row">
+          <img class="photo-list" src="../imgs/edificio_anchieta.jpg" />
+          <p id="anchieta" class="list-place">Edifício Anchieta</p>
+        </div>
         </section>
         <img onclick="flip()" class="btn-flip" src="../imgs/icone-mapa-grafico.png" />
       </div>
@@ -82,6 +76,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="../js/map.js"></script>
+  <script src="../js/dom.js"></script>
+  <script src="../js/api-wiki.js"></script>
 </body>
 
 </html>
