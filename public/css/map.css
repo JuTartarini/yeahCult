@@ -45,6 +45,7 @@ color: #ffffff;
 
 .navbar-nav a{
   color: #ffffff;
+  margin-right: 14px;
 }
 
 .card {
@@ -57,6 +58,10 @@ color: #ffffff;
 .back, .btn-flip {
   display:block;
   position:absolute;
+}
+
+a {
+  text-decoration-line: none !important;
 }
 
 .text-timeline{
@@ -131,7 +136,7 @@ left:3vw;
   display: block;
   width: auto;
   top: 0;
-  position: absolute;
+  position: relative;
   backface-visibility: hidden;
 }
 
@@ -143,12 +148,12 @@ left:3vw;
 }
 
 .btn-flip, .btn-flip-one{
-  background:transparent;
-  width:17vw;
+  background: transparent;
+  width: 7vw;
   height: auto;
   position: absolute;
-  top: 130vw;
-  left: 3vw;
+  top: 42vw;
+  left: 2vw;
 }
 
 .btn-flip{
@@ -172,26 +177,31 @@ left:3vw;
   body{
     font-size: 20px;
   }
-
+  
   .btn-top{
     margin-left: 25vw;
   }
 
-  header, main, .map, .list-map{
+  header {
+    width: 100%;
+  }
+  
+  main, .map, .list-map{
+    position: absolute;
     width:100%;
   }
-
+  
   .img-timeline {
     width: 15%;
     margin: 3%;
   }
-
+  
   a.navbar-brand{
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 30px;
     font-weight: 500;
   }
-
+  
   .navbar {
     /* height: 12vh; */
     background: linear-gradient(to right, #8333A3, #000000);
@@ -206,7 +216,7 @@ left:3vw;
     background: transparent;
     border: none;
   }
-
+  
   .nav-button{
     background: transparent;
     border: none;
@@ -217,14 +227,14 @@ left:3vw;
   .navbar-nav a{
     color: #ffffff;
   }
-
+  
   .card {
     padding:0;
     width: 100%;
     transition: transform 1s;
     transform-style: preserve-3d;
   }
-
+  
   .back, .btn-flip {
     display:block;
     position:absolute;
@@ -271,7 +281,7 @@ left:3vw;
   display: block;
   width: auto;
   top:0px;
-  position: absolute;
+  position: relative;
   backface-visibility: hidden;
 }
 
@@ -284,7 +294,7 @@ left:3vw;
 
 .btn-flip, .btn-flip-one{
   background:transparent;
-  width:15vw;
+  width:20vw;
   height: auto;
 }
 
@@ -302,8 +312,10 @@ left:3vw;
 }
 
 .list-map{
+  background-color: white;
+  position:absolute;
   height: 88vh;
-  position:relative;
+  width:100vw;
 }
 
 .fa-arrow-left {
@@ -326,4 +338,14 @@ left:3vw;
 .photo {
   width: auto;
   height: 200px;
+}
+
+.photo-list {
+  width: auto;
+  height: 150px;
+}
+
+.carousel-item {
+  /* position: relative !important; */
+  /* display: none !important; */
 }
