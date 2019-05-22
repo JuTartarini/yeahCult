@@ -25,7 +25,6 @@ function initMap() {
       title: locations[i][0],
       map: map
     });
-    console.log(homeMarker);
 
     homeMarker.addListener('click', function () {
       window.location = `wiki.html?placeName=${homeMarker.title}`;
