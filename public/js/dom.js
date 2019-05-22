@@ -3,3 +3,10 @@ const player = document.getElementById('player');
 const summary = document.getElementById('summary');
 const gallery = document.getElementById('gallery');
 const btnEnglish = document.getElementById('btn-english');
+const masp = 'Museu_de_Arte_de_São_Paulo'
+
+
+function teste(place){
+  let lugar = place
+  return lugar
+}
