@@ -1,13 +1,13 @@
-body{
+body {
   font-size: 20px;
 }
 
-.btn-top{
+.btn-top {
   margin-left: 25vw;
 }
 
-header, main, .map, .list-map{
-  width:100%;
+header, main, .map, .list-map {
+  width: 100%;
 }
 
 .img-timeline {
@@ -15,7 +15,7 @@ header, main, .map, .list-map{
   margin: 3%;
 }
 
-a.navbar-brand{
+a.navbar-brand {
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 30px;
   font-weight: 500;
@@ -26,24 +26,24 @@ a.navbar-brand{
   background: linear-gradient(to right, #8333A3, #000000);
 }
 
-.navbar-toggler .fas{
-color: #ffffff;
+.navbar-toggler .fas {
+  color: #ffffff;
 }
 
-.nav-options{
-  color:white;
+.nav-options {
+  color: white;
   background: transparent;
   border: none;
 }
 
-.nav-button{
+.nav-button {
   background: transparent;
   border: none;
   /* margin-top: 14vw;
   margin-right: 5vh; */
 }
 
-.navbar-nav a{
+.navbar-nav a {
   color: #ffffff;
   margin-right: 14px;
 }
@@ -56,80 +56,81 @@ color: #ffffff;
 }
 
 .back, .btn-flip {
-  display:block;
-  position:absolute;
+  display: block;
+  position: absolute;
 }
 
 a {
   text-decoration-line: none !important;
 }
 
-.text-timeline{
-font-family: 'Nanum Gothic Coding', monospace;
-color: white;
-font-size: 30px;
+.text-timeline {
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: white;
+  font-size: 30px;
 }
 
 .nav-timeline {
-background: linear-gradient(to right, #8333A3, #000000);
+  background: linear-gradient(to right, #8333A3, #000000);
 }
 
-.nav-options{
-color:white;
-background: transparent;
-border: none;
+.nav-options {
+  color: white;
+  background: transparent;
+  border: none;
 }
 
-.nav-button{
-background: transparent;
-border: none;
-margin-top: 14vw;
-margin-right: 5vh;
+.nav-button {
+  background: transparent;
+  border: none;
+  margin-top: 14vw;
+  margin-right: 5vh;
 }
 
 .card {
-padding:0;
-width: 100%;
-transition: transform 1s;
-transform-style: preserve-3d;
+  padding: 0;
+  width: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 
 .back, .btn-flip {
-display:block;
-position:absolute;
+  display: block;
+  position: absolute;
 }
 
 .card div {
-display: block;
-width: auto;
-top:0px;
-position: absolute;
-backface-visibility: hidden;
+  display: block;
+  width: auto;
+  top: 0px;
+  position: absolute;
+  backface-visibility: hidden;
 }
 
 .card .back {
-transform: rotateY( 180deg );
+  transform: rotateY( 180deg);
 }
+
 .card.flipped {
-transform: rotateY( 180deg );
+  transform: rotateY( 180deg);
 }
 
-.btn-flip, .btn-flip-one{
-background:transparent;
-width:20vw;
-height: auto;
+.btn-flip, .btn-flip-one {
+  background: transparent;
+  width: 20vw;
+  height: auto;
 }
 
-.btn-flip{
-position: absolute;
-bottom: 5vh;
-left: 3vw;
+.btn-flip {
+  position: absolute;
+  bottom: 5vh;
+  left: 3vw;
 }
 
-.btn-flip-one{
-position: absolute;
-top: 70vw;
-left:3vw;
+.btn-flip-one {
+  position: absolute;
+  top: 70vw;
+  left: 3vw;
 }
 
 .card div {
@@ -141,13 +142,14 @@ left:3vw;
 }
 
 .card .back {
-  transform: rotateY( 180deg );
-}
-.card.flipped {
-  transform: rotateY( 180deg );
+  transform: rotateY( 180deg);
 }
 
-.btn-flip, .btn-flip-one{
+.card.flipped {
+  transform: rotateY( 180deg);
+}
+
+.btn-flip, .btn-flip-one {
   background: transparent;
   width: 7vw;
   height: auto;
@@ -156,21 +158,21 @@ left:3vw;
   left: 2vw;
 }
 
-.btn-flip{
+.btn-flip {
   bottom: 5vh;
   left: 3vw;
 }
 
 .map {
   height: 88vh;
-  position:absolute;
+  position: absolute;
   margin: 0;
   padding: 0;
 }
 
-.list-map{
+.list-map {
   height: 88vh;
-  position:relative;
+  position: relative;
 }
 
 .photo-list {
@@ -187,184 +189,155 @@ left:3vw;
   color: black;
 }
 
-@media screen and (max-width: 1024px){
-  body{
+@media screen and (max-width: 1024px) {
+  body {
     font-size: 20px;
   }
-  
-  .btn-top{
+  .btn-top {
     margin-left: 25vw;
   }
-
   header {
     width: 100%;
   }
-  
-  main, .map, .list-map{
+  main, .map, .list-map {
     position: absolute;
-    width:100%;
+    width: 100%;
   }
-  
   .img-timeline {
     width: 15%;
     margin: 3%;
   }
-  
-  a.navbar-brand{
+  a.navbar-brand {
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 30px;
     font-weight: 500;
   }
-  
   .navbar {
     /* height: 12vh; */
     background: linear-gradient(to right, #8333A3, #000000);
   }
-
-.navbar-toggler .fas{
-  color: #ffffff;
-}
-
-  .nav-options{
-    color:white;
+  .navbar-toggler .fas {
+    color: #ffffff;
+  }
+  .nav-options {
+    color: white;
     background: transparent;
     border: none;
   }
-  
-  .nav-button{
+  .nav-button {
     background: transparent;
     border: none;
     /* margin-top: 14vw;
     margin-right: 5vh; */
   }
-
-  .navbar-nav a{
+  .navbar-nav a {
     color: #ffffff;
   }
-  
   .card {
-    padding:0;
+    padding: 0;
     width: 100%;
     transition: transform 1s;
     transform-style: preserve-3d;
   }
-  
   .back, .btn-flip {
-    display:block;
-    position:absolute;
+    display: block;
+    position: absolute;
   }
-
-
-.text-timeline{
-  font-family: 'Nanum Gothic Coding', monospace;
-  color: white;
-  font-size: 30px;
-}
-
-.nav-timeline {
-  background: linear-gradient(to right, #8333A3, #000000);
-  height: 12vh;
-}
-
-.nav-options{
-  color:white;
-  background: transparent;
-  border: none;
-}
-
-.nav-button{
-  background: transparent;
-  border: none;
-  margin-top: 14vw;
-  margin-right: 5vh;
-}
-
-.card {
-  padding:0;
-  width: 100%;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.back, .btn-flip {
-  display:block;
-  position:absolute;
-}
-
-.card div {
-  display: block;
-  width: auto;
-  top:0px;
-  position: relative;
-  backface-visibility: hidden;
-}
-
-.card .back {
-  transform: rotateY( 180deg );
-}
-.card.flipped {
-  transform: rotateY( 180deg );
-}
-
-.btn-flip, .btn-flip-one{
-  background:transparent;
-  width:20vw;
-  height: auto;
-  position: absolute;
-  top: 125vw;
-  left:3vw;
-}
-
-.btn-flip {
-  position: fixed;
-}
-
-.map {
-  height: 88vh;
-  position:absolute;
-  margin: 0;
-  padding: 0;
-}
-
-.list-map{
-  background-color: white;
-  position:absolute;
-  height: 88vh;
-  width:100vw;
-}
-
-.fa-arrow-left {
-  padding: 8%;
-}
-
-.player {
-  padding-left: 8%;
-}
-
-.summary {
-  padding: 2% 8%;
-  text-align: justify;
-}
-
-.read-more {
-  float: right;
-}
-
-.photo {
-  width: auto;
-  height: 200px;
-}
-
-.photo-list {
-  width: auto;
-  height: 150px;
-}
-
-.row {
-  margin-top: 3vw;
-  margin-left: 3vh;
-}
-
-.list-place {
-  color: black;
-}
+  .text-timeline {
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: white;
+    font-size: 30px;
+  }
+  .nav-timeline {
+    background: linear-gradient(to right, #8333A3, #000000);
+    height: 12vh;
+  }
+  .nav-options {
+    color: white;
+    background: transparent;
+    border: none;
+  }
+  .nav-button {
+    background: transparent;
+    border: none;
+    margin-top: 14vw;
+    margin-right: 5vh;
+  }
+  .card {
+    padding: 0;
+    width: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  .back, .btn-flip {
+    display: block;
+    position: absolute;
+  }
+  .card div {
+    display: block;
+    width: auto;
+    top: 0px;
+    position: relative;
+    backface-visibility: hidden;
+  }
+  .card .back {
+    transform: rotateY( 180deg);
+  }
+  .card.flipped {
+    transform: rotateY( 180deg);
+  }
+  .btn-flip, .btn-flip-one {
+    background: transparent;
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    top: 125vw;
+    left: 3vw;
+  }
+  .btn-flip {
+    position: fixed;
+  }
+  .map {
+    height: 88vh;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+  }
+  .list-map {
+    background-color: white;
+    position: absolute;
+    height: 88vh;
+    width: 100vw;
+    float: right;
+  }
+  .fa-arrow-left {
+    padding: 8%;
+  }
+  .player {
+    padding-left: 8%;
+  }
+  .summary {
+    padding: 2% 8%;
+    text-align: justify;
+  }
+  .read-more {
+    float: right;
+  }
+  .photo {
+    width: auto;
+    height: 200px;
+  }
+  .photo-list {
+    width: auto;
+    height: 150px;
+  }
+  .row {
+    margin-top: 3vw;
+    margin-left: 3vh;
+  }
+  .list-place {
+    color: white;
+    border: none;
+    background-color: black;
+    margin-top: 5px;
+  }

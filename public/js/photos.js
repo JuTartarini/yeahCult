@@ -7,8 +7,6 @@ const photos = {
 };
 
 function showPhotos(place) {
-  console.log(place);
-
   gallery.innerHTML = `
       <div id='carouselExampleControls' class='carousel slide' data-ride='carousel'>
       <div class='carousel-inner'>

@@ -15,3 +15,20 @@ function fetchTTS(text) {
       errorMsg.textContent = error + 'Erro. Não foi possível carregar o áudio!';
     });
 }
+
+// function fetchTTSEn(text) {
+//   fetch(`${voiceUrl}?key=${apiKey}&hl=en&src=${text}&f=48khz_16bit_stereo`)
+//     .then(resp => {
+//       player.preload = 'auto';
+//       const sourceTag = document.createElement('source');
+//       sourceTag.type = 'audio/wav';
+//       sourceTag.src = resp.url;
+
+//       player.appendChild(sourceTag);
+//     })
+//     .catch(error => {
+//       errorMsg.textContent = error + 'Erro. Não foi possível carregar o áudio!';
+//     });
+//   window.location.reload()
+
+// }
