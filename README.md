@@ -3,11 +3,20 @@
 Descubra o mundo ao seu redor!
 
 ## Introdução
-História, cultura e arte estão em todos os lugares!
+Passmos tanto tempo nas tarefas rotineiras, em filas ou na condução, por exemplo, e quase não temos tempo para consumir cultura.
 
-Você gostaria de tornar sua rotina mais divertida? Descobrir coisas interessantes sobre o bairro onde você mora, a história de prédios por onde você passa a caminho do trabalho? Quem sabe descobrir cultura até mesmo enquanto espera na sala do dentista?
+Então pensamos, tem MUITA coisa interessante espalhada por aí ao nosso redor, nós é que não nos damos conta, porque estamos com os olhos viciados pela rotina.
 
-Te convidamos a sair do turismo convencional e embarcar conosco nesta jornada de conhecer o 'mundo' ao nosso redor!
+Nossa ideia é despertar um novo olhar para as coisas que nos cercam, contar sua história, seu valor.
+
+Seria muito interessante se a gente pudesse ouvir um áudio contanto a história da rua enquanto caminhamos por ela indo para o trabalho, por exemplo. E se você ainda descobrisse histórias e curiosidades sobre o bairro onde você mora?
+
+Nessa primeira versão, trazemos conteúdo da Wikipedia, com possibilidade de áudio em voz sintética e tradução do texto para o inglês.
+
+Nas versões futuras, nosso desejo é promover  mais a inclusão, com audios ainda melhores com narração humana, textos inseridos pela comunidade, tornar o aplicativo 'vivo'. 
+Inclusão de rotas, para fzr um passeio guiado, etc.
+
+E falar sobre a monetização, através do apoio de empresas públicas e privadas, planos de incentivo a cultura, e crowfunding, por quê não?
 
 ## Canvas
 [Link Canvas](https://canvanizer.com/canvas/wfIUYRhiePBAE)
