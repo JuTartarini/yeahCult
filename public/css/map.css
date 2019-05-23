@@ -311,11 +311,11 @@ a {
     float: right;
   }
   .fa-arrow-left {
-    padding: 8%;
+    padding: 5%;
+    font-size: 25px;
+    color: #8333A3;
   }
-  .player {
-    padding-left: 8%;
-  }
+
   .summary {
     padding: 2% 8%;
     text-align: justify;
@@ -339,4 +339,10 @@ a {
     background:rgb(71, 26, 88);
   }
 
+  #btnEnglish{
+    color: white;
+    border: none;
+    background:rgb(71, 26, 88);
+    border-radius: 30px;
+  }
 }
