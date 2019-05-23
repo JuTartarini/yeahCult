@@ -14,7 +14,7 @@ Seria muito interessante se a gente pudesse ouvir um áudio contanto a história
 Nessa primeira versão, trazemos conteúdo da Wikipedia, com possibilidade de áudio em voz sintética e tradução do texto para o inglês.
 
 Nas versões futuras, nosso desejo é promover  mais a inclusão, com audios ainda melhores com narração humana, textos inseridos pela comunidade, tornar o aplicativo 'vivo'. 
-Inclusão de rotas, para fzr um passeio guiado, etc.
+Inclusão de rotas, para realizar um passeio guiado, etc.
 
 E falar sobre a monetização, através do apoio de empresas públicas e privadas, planos de incentivo a cultura, e crowfunding, por quê não?
 
