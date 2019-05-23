@@ -1,5 +1,6 @@
 body {
   font-size: 20px;
+  margin: 0;
 }
 
 .btn-top {
@@ -22,7 +23,6 @@ a.navbar-brand {
 }
 
 .navbar {
-  /* height: 12vh; */
   background: linear-gradient(to right, #8333A3, #000000);
 }
 
@@ -325,19 +325,18 @@ a {
   }
   .photo {
     width: auto;
-    height: 200px;
+    height: 60vw; 
   }
   .photo-list {
     width: auto;
     height: 150px;
+ 
   }
-  .row {
-    margin-top: 3vw;
-    margin-left: 3vh;
-  }
+
   .list-place {
     color: white;
     border: none;
-    background-color: black;
-    margin-top: 5px;
+    background:rgb(71, 26, 88);
   }
+
+}

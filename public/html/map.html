@@ -32,7 +32,8 @@
             <a href="#" id="save" class="text-muted"><i class="far fa-bookmark"></i> Salvos</a>
             <a href="#" id="signout" class="text-muted"><i class="fas fa-cog"></i> Configurações</a>
             <a href="#" id="signout" class="text-muted"><i class="far fa-question-circle"></i></i> Ajuda</a>
-            <a href="../index.html" id="signout"><i class="fas fa-sign-out-alt"></i> Sair<span class="sr-only">(current)</span></a>
+            <a href="../index.html" id="signout"><i class="fas fa-sign-out-alt"></i> Sair<span
+                class="sr-only">(current)</span></a>
           </div>
         </div>
       </div>
@@ -42,43 +43,31 @@
     <div id="map" class="map"></div>
     <div class="card">
       <div class="front">
-
         <img src="../imgs/icone-lista-grafico.png" onclick="flip()" class="btn-flip-one" />
       </div>
       <div class="back">
         <section class="list-map">
-            <div class="row">
-          <img class="photo-list" src="../imgs/masp.jpg" />
-          <button id="masp" class="list-place">Museu de Arte de São Paulo</button>
-            </div>
-              <div class="row">
-          <img class="photo-list" src="../imgs/parque-trianon.jpg" />
-          <button id="trianon" class="list-place">Parque do Trianon</button>
-        </div>
-          <div class="row">
-          <img class="photo-list" src="../imgs/conjunto-nacional.jpg" />
-          <button id="cj" class="list-place">Conjunto Nacional</button>
-        </div>
-          <div class="row">
-          <img class="photo-list"  src="../imgs/fundacao-casper-libero.jpg" />
-          <button id="casper" class="list-place">Fundação Casper Líbero</button>
-        </div>
-          <div class="row">
-          <img class="photo-list" src="../imgs/edificio_anchieta.jpg" />
-          <button id="anchieta" class="list-place">Edifício Anchieta</button>
-        </div>
+          <div class="d-flex flex-column photo-list list-place m-2 mt-4">
+            <img src="../imgs/masp.jpg" />
+            <button id="masp" class="list-place mb-4">Museu de Arte de São Paulo</button>
+            <img src="../imgs/parque-trianon.jpg" />
+            <button id="trianon" class="list-place mb-4">Parque do Trianon</button>
+            <img src="../imgs/conjunto-nacional.jpg" />
+            <button id="cj" class="list-place mb-4">Conjunto Nacional</button>
+            <img src="../imgs/fundacao-casper-libero.jpg" />
+            <button id="casper" class="list-place mb-4">Fundação Casper Líbero</button>
+            <img src="../imgs/edificio_anchieta.jpg" />
+            <button id="anchieta" class="list-place mb-4">Edifício Anchieta</button>
+          </div>
         </section>
         <img onclick="flip()" class="btn-flip" src="../imgs/icone-mapa-grafico.png" />
       </div>
     </div>
   </main>
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
   <script src="../js/dom.js"></script>
-
 </body>
 
 </html>
