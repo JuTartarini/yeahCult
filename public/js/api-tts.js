@@ -1,4 +1,4 @@
-const voiceUrl = 'http://api.voicerss.org/';
+const voiceUrl = 'https://api.voicerss.org/';
 const apiKey = '6fff046e52fd4f1d8627cf52c53e2802';
 
 function fetchTTS(text) {
